@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    color: #1e1c2a;
+    background: #fff;
+}
+.navegation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+
+}
+.navegation .logoimg{
+    height: 100px;
+    width: 100px;
+
+}
+.navegation ul{
+
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.navegation ul li a{
+    color: #1e1c2a;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.navegation ul li a:hover{
+    color: #8fc642;
+}
+.navegation i{
+    cursor:pointer;
+    font-size: 1.5rem;
+}
+.menu{
+    cursor: pointer;
+}
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: #1e1c2a;
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: #8fc642;
+}
+.home{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+.home-text{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    padding: 10px;
+    max-width: 37rem;
+    transform: translate(-50%, -50%);
+}
+.home-text .text-h4{
+    font-size: 1.5rem;
+    color: #8fc642;
+    margin-bottom: 1rem;
+}
+.home-text .text-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.home-text .p{
+    margin-bottom: 1rem;
+    padding: 15px;
+}
+.home .paragrafo{
+    margin-bottom: 4rem;
+}
+.home-btn{
+    margin-top: 2rem;
+    padding: 15px 45px;
+    background: #8fc642;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+    z-index: 1;
+}
+.home-btn:hover{
+    background: #63892e;
+}
+.home-img img{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
